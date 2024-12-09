@@ -1,0 +1,1 @@
+import{b as i}from"./index-BVeWQJKY.js";import{u as m}from"./auth-crG6X3ps.js";import"./index-NO1tTDDh.js";import"./vue.runtime.esm-bundler-DiDl30RO.js";import"./index-C_EbUJFQ.js";const d=i(({app:u,router:t,redirect:o})=>{t.beforeEach((a,p,e)=>{!m().loggedIn&&a.matched.some(r=>r.meta.requiresAuth)&&o("/login"),e()})});export{d as default};
