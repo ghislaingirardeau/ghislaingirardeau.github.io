@@ -1,0 +1,1 @@
+function o(){return Math.round(Math.random()*100)}const r={animation:200,group:"description",disabled:!1,ghostClass:"ghost"},n=["red","green","blue","yellow","purple","indigo","pink","purple","slate"];export{n as c,r as d,o as r};
