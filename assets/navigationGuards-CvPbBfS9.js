@@ -1,0 +1,1 @@
+import{b as n}from"./index-BA5aWebT.js";const h=n(({app:s,router:e,redirect:l})=>{e.afterEach((t,r)=>{const i=t.path.split("/"),a=r.path.split("/");if(i[1]===""){t.meta.transition="slide-right";return}if(i[1]==="shopping"&&a[1]==="wallet"){t.meta.transition="slide-right";return}t.meta.transition=i.length<a.length?"slide-right":"slide-left"})});export{h as default};
